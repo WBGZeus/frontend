@@ -56,7 +56,7 @@
                   style="font-size: 15px;"
                   @click="handleBtnClick('login')">{{$t('m.Login')}}
           </Button>
-          <Button v-if="!website.allow_register"
+          <Button v-if="website.allow_register"
                   type="ghost"
                   shape="circle"
                   @click="handleBtnClick('register')"

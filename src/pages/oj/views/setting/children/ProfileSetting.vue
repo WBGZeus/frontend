@@ -89,9 +89,9 @@
           <Form-item label="Mood">
             <Input v-model="formProfile.mood"/>
           </Form-item>
-          <Form-item label="Blog">
+          <!-- <Form-item label="Blog">
             <Input v-model="formProfile.blog"/>
-          </Form-item>
+          </Form-item> -->
           <Form-item label="Github">
             <Input v-model="formProfile.github"/>
           </Form-item>
